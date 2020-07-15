@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity"
+    >
+
+    <RadioGroup
+        android:id="@+id/rg_themes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        >
+        <RadioButton
+            android:id="@+id/rb_theme_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:text="@string/rb_theme_dark"
+            android:textSize="30sp"
+            android:onClick="onThemeSelected"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/rb_theme_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:text="@string/rb_theme_light"
+            android:textSize="30sp"
+            android:onClick="onThemeSelected"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/settings_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/rg_themes"
+        android:layout_centerInParent="true"
+        android:text="@string/choose_theme_title"
+        android:textSize="35sp"
+        />
+
+</RelativeLayout>

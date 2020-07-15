@@ -1,0 +1,48 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppThemeDark" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="actionBarStyle">@style/action_bar_dark</item>
+        <item name="actionMenuTextAppearance">@style/action_bar_dark_text</item>
+        <item name="android:colorBackground">@color/DarkBackground</item>
+        <item name="android:textColor">@color/DarkText</item>
+        <item name="android:textColorPrimary">@color/DarkText</item>
+        <item name="android:radioButtonStyle">@style/dark_radio_button</item>
+        <item name="actionOverflowMenuStyle">@style/overflow_dark</item>
+    </style>
+
+    <style name="action_bar_dark" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/DarkActionBarBackground</item>
+        <item name="titleTextStyle">@style/action_bar_dark_text</item>
+    </style>
+
+    <style name="action_bar_dark_text">
+        <item name="android:textColor">@color/DarkText</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="overflow_dark" parent="@style/Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:popupBackground">@color/DarkActionBarBackground</item>
+    </style>
+
+    <style name="dark_radio_button" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textColor">@color/DarkText</item>
+        <item name="buttonTint">@color/DarkText</item>
+    </style>
+
+    <style name="AppThemeLight" parent="Theme.AppCompat.Light">
+        <item name="actionBarStyle">@style/action_bar_light</item>
+        <item name="android:textColor">@color/LightText</item>
+        <item name="android:textColorPrimary">@color/LightText</item>
+    </style>
+
+    <style name="action_bar_light" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/LightActionBarBackground</item>
+        <item name="titleTextStyle">@style/action_bar_light_text</item>
+    </style>
+
+    <style name="action_bar_light_text" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/LightText</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+</resources>

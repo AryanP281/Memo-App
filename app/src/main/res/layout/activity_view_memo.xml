@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/memo_display_title_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:text="@string/new_memo_title_text"
+            android:textSize="30sp"
+            android:fontFamily="sans-serif-black"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id='@+id/memo_display_title'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/memo_display_title_label"
+            android:layout_alignLeft="@id/memo_display_title_label"
+            android:layout_marginTop="10dp"
+            android:textSize="30sp"
+            android:fontFamily="sans-serif-black"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id='@+id/memo_display_text_label'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/memo_display_title"
+            android:layout_alignLeft="@id/memo_display_title_label"
+            android:layout_marginTop="50dp"
+            android:text="@string/new_memo_text"
+            android:textSize="30sp"
+            android:fontFamily="sans-serif-black"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/memo_display_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/memo_display_text_label"
+            android:layout_alignLeft="@id/memo_display_title_label"
+            android:layout_marginTop="10dp"
+            android:textSize="30sp"
+            android:fontFamily="sans-serif-black"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+</ScrollView>

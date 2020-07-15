@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="DarkText">#ffffff</color>
+    <color name="DarkBackground">#000000</color>
+    <color name="DarkActionBarBackground">#575757</color>
+    <color name="DarkButtonGradientStart">#000000</color>
+    <color name="DarkButtonGradientEnd">#343434</color>
+    <color name="DarkButtonStrokeColour">#535353</color>
+    <color name="LightText">#000000</color>
+    <color name="LightBackground">#ffffff</color>
+    <color name="LightActionBarBackground">#ffffff</color>
+    <color name="LightButtonGradientStart">#e1eec3</color>
+    <color name="LightButtonGradientEnd">#f05053</color>
+</resources>
